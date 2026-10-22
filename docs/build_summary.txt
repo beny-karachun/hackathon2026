@@ -1,0 +1,43 @@
+input rows: 1156 from 5 shards Counter({'CHEMBIO': 316, 'MATMIN': 282, 'FOODAG': 279, 'URBANX': 268, 'SPONSOR': 11})
+unique streams after dedupe: 1135
+merged pairs: 21; clusters with merges: 21; rows absorbed: 21
+parent links: 22 (regional rule: 2); rollup parents: 14; top-level rows for totals: 1113
+review (not merged): 10
+stream_components: 4595 links; streams with >=1 component: 1119/1135; with pct_dry: 311
+unmatched main_components terms: 575 distinct (639 occurrences)
+products: 2817 (scale: {'bulk': 2316, 'specialty': 477, 'research_quantity': 24}); product_components: 945 (943 mapped, 2 distinct unmatched)
+sponsor_streams: 58 rows, 49 streams linked
+candidate_routes: 33726 across 1077 streams (top-40 cap); research_quantity price capped at P95 bulk/specialty = $188.0/kg for ranking
+routes ingested from workers: 5293
+batches: 24 files, 47-48 streams each; sponsor-linked streams first (49)
+top 30 components:
+  lipids/oils (generic) [lipid] 147
+  fiber (generic) [polysaccharide] 123
+  protein [protein] 121
+  silica/SiO2 [mineral] 120
+  ceramics/cementitious [mineral] 105
+  sulfate (generic) [salt] 101
+  water [water] 98
+  aluminosilicates/clays [mineral] 93
+  iron/Fe [metal] 93
+  magnesia/Mg [mineral] 82
+  cellulose [polysaccharide] 81
+  KCl/potassium [salt] 73
+  phosphoric acid/phosphates [salt] 72
+  plastics (mixed) [polymer] 66
+  salts (generic) [salt] 63
+  calcium carbonate [mineral] 61
+  aluminium (metal) [metal] 59
+  lignin [polyphenol] 58
+  sugars (generic) [sugar] 56
+  copper [metal] 55
+  carbon/char [carbon] 53
+  lime/CaO [mineral] 52
+  pigments/dyes (synthetic) [pigment] 52
+  PP (polypropylene) [polymer] 51
+  iron oxides [mineral] 51
+  glass [mineral] 50
+  sodium hydroxide/alkali [salt] 49
+  zinc [metal] 46
+  PE (polyethylene) [polymer] 44
+  alumina/Al2O3 [mineral] 44
